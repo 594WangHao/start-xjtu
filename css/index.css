@@ -1,0 +1,100 @@
+* {
+	font-family: "微软雅黑" !important;
+}
+
+.tile-area-controls {
+	position: fixed;
+	right: 40px;
+	top: 40px;
+}
+.tile{
+	border-radius: 4px;
+}
+.tile,
+.tile-small,
+.tile-sqaure,
+.tile-wide,
+.tile-large,
+.tile-big,
+.tile-super {
+	opacity: 0;
+	-webkit-transform: scale(.8);
+	transform: scale(.8);
+}
+#charmSettings .button {
+	margin: 5px;
+}
+.schemeButtons {
+	/*width: 300px;*/
+}
+.footer{
+	list-style-type: none;
+	position: absolute;
+	bottom: 0;
+}
+.footer li a{
+	color: white;
+	text-decoration: underline;
+}
+.right1{
+	position: absolute;
+	right: 18px;
+	top: 50%;
+	width: 6px;
+	height: 48px;
+	border-radius: 3px;
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+	background: black;
+	opacity: 0.1;
+}
+.right2{
+	content: "";
+	position: absolute;
+	bottom: 30%;
+	right: 18px;
+	width: 6px;
+	height: 48px;
+	border-radius: 3px;
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	transform:rotate(45deg);
+	background: black;
+	opacity: 0.1;
+}
+.float{
+	position: fixed;
+	top: 50%;
+	right: 0;
+	z-index: 9999;
+	-webkit-transform:translateY(-50%);
+	-moz-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	-o-transform:translateY(-50%);
+	transform:translateY(-50%);
+	width: 50px;
+	height: 100px;
+/*	background: white;*/
+}
+
+@media screen and (max-width: 640px) {
+	.tile-area {
+		overflow-y: scroll;
+	}
+	.tile-area-controls {
+		display: none;
+	}
+}
+@media screen and (max-width: 320px) {
+	.tile-area {
+		overflow-y: scroll;
+	}
+	.tile-area-controls {
+		display: none;
+	}
+}

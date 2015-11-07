@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="zh">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="keywords" content="XJTU , GO">
+		<meta name="author" content="HeleyChen@isiyue.org">
+		<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+		<title>西安交大网络导航</title>
+		<link href="css/metro.css" rel="stylesheet">
+		<link href="css/metro-icons.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="js/jquery-2.1.3.min.js"></script>
+		<script src="js/metro.js"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+
+	</head>
+
+	<body style="overflow-y: hidden;">
+		<!-- 搜索栏提示 -->
+		<div class="float">
+			<div class="right1"></div>
+			<div class="right2"></div>
+		</div>
+
+		<!--搜索栏-->
+		<div data-role="charm" id="charmSearch">
+			<h1 class="text-light">搜索</h1>
+			<hr class="thin" />
+			<br />
+			<div class="input-control text full-size">
+				<input type="text" id="search_input" placeholder="百度搜索" />
+				<button class="button" id="search_button"><img src="img/baidu-icon.png" height="14" width="14"></button>
+			</div>
+			<ul class="footer">
+				<li><a href="http://cy.xjtu.edu.cn/xplus/form.php?id=4"> 给我们提建议 </a></li>
+				<li><a href="http://zciii.com/blogwp/category/daohang/"> 升级日志 </a></li>
+				<li><a href="oldv1/index.html"> 查看V1旧版 </a></li>
+			</ul>
+		</div>
+		<div class="tile-area tile-area-scheme-dark fg-white" style="height: 100%; max-height: 100% !important;">
+			<h1 class="tile-area-title"><a style="color:white" href="http://www.xjtu.edu.cn/">西安交通大学</a>  &gt;  网络导航</h1>
+			<div class="tile-area-controls">
+				<a style="color:white" href="http://www.isiyue.org/">
+					<button class="image-button icon-right bg-transparent fg-white bg-hover-dark no-border">
+						<span class="sub-header no-margin text-light">
+        思跃社
+        </span> <span class="icon mif-user"></span>
+					</button>
+				</a>
+				<button class="square-button bg-transparent fg-white bg-hover-dark no-border" onclick="showCharms('#charmSearch')"><span class="mif-search"></span></button>
+			</div>
+
+			<!--面板-->
+
+			<div class="tile-group double">
+				<span class="tile-group-title">常用</span>
+
+				<a href="http://job.xjtu.edu.cn/" class="tile bg-red fg-white" data-role="tile">
+					<div class="tile-content iconic">
+						<span class="icon mif-trophy"></span>
+					</div>
+					<span class="tile-label">就业中心</span>
+				</a>
+
+				<a href="http://dean.xjtu.edu.cn/" class="tile bg-orange fg-white" data-role="tile">
+					<div class="tile-content iconic">
+						<span class="icon mif-user"></span>
+					</div>
+					<span class="tile-label">教务处</span>
+				</a>
+
+				<a href="http://202.117.1.179/mark/showMarkOne.do" class="tile bg-white fg-black" data-role="tile">
+					<div class="tile-content iconic">
+						<span class="icon mif-pencil"></span>
+					</div>
+					<span class="tile-label">查成绩</span>
+				</a>
+
+				<a href="http://202.117.1.152:8080/User" class="tile bg-black fg-white" data-role="tile">
+					<div class="tile-content iconic">
+						<span class="icon">旷</span>
+					</div>
+					<span class="tile-label">考勤状况</span>
+				</a>
+				<div class="tile-container">
+
+					<a href="http://cy.xjtu.edu.cn/" class="tile bg-green fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-location"></span>
+						</div>
+						<span class="tile-label">仲英书院</span>
+					</a>
+
+					<a href="http:my.xjtu.edu.cn" class="tile bg-red fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-home"></span>
+						</div>
+						<span class="tile-label">个人主页</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="tile-group double">
+				<span class="tile-group-title">生活应用</span>
+				<div class="tile-container">
+
+					<a href="http://v5.ele.me/?force" class="tile bg-indigo fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon">饿</span>
+						</div>
+						<span class="tile-label">饿了么</span>
+					</a>
+
+					<a href="http://xa.meituan.com/?utm_campaign=baidu&utm_medium=organic&utm_source=baidu&utm_content=homepage&utm_term=" class="tile bg-green fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-yelp"></span>
+						</div>
+						<span class="tile-label">美团</span>
+					</a>
+
+					<a href="https://www.taobao.com/" class="tile bg-orange fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-cart"></span>
+						</div>
+						<span class="tile-label">淘宝</span>
+					</a>
+
+					<a href="http://www.iqiyi.com/" class="tile bg-gray fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-play"></span>
+						</div>
+						<span class="tile-label">爱奇艺</span>
+					</a>
+
+					<a href="http://pan.baidu.com" class="tile bg-lightBlue fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-cloud"></span>
+						</div>
+						<span class="tile-label">百度云</span>
+					</a>
+
+					<a href="http://xiaoli.xjtu.edu.cn/front/1.html" class="tile bg-red fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-calendar"></span>
+						</div>
+						<span class="tile-label">校历</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="tile-group one">
+				<span class="tile-group-title">邮箱</span>
+				<div class="tile-container">
+					<a href="https://mail.google.com/" class="tile bg-lightBlue fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-google"></span>
+						</div>
+						<span class="tile-label">gmail</span>
+					</a>
+
+					<a href="https://login.live.com/" class="tile bg-red fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-windows"></span>
+						</div>
+						<span class="tile-label">hotmail</span>
+					</a>
+
+					<a href="http://email.163.com/#from=ntes_product" class="tile bg-blue fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-mail"></span>
+						</div>
+						<span class="tile-label">网易邮箱</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="tile-group two">
+				<span class="tile-group-title">新闻资讯</span>
+				<div class="tile-container">
+
+					<a href="http://www.guancha.cn/" class="tile bg-red fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-eye"></span>
+						</div>
+						<span class="tile-label">观察者网</span>
+					</a>
+
+					<a href="http://www.ifeng.com/" class="tile bg-indigo fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-film"></span>
+						</div>
+						<span class="tile-label">凤凰网</span>
+					</a>
+
+					<a href="http://www.zaobao.com/" class="tile bg-indigo fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-bookmark"></span>
+						</div>
+						<span class="tile-label">联合早报</span>
+					</a>
+
+					<a href="http://www.huanqiu.com/" class="tile bg-green fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-earth"></span>
+						</div>
+						<span class="tile-label">环球网</span>
+					</a>
+
+					<a href="http://www.infzm.com/" class="tile bg-black fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-sun"></span>
+						</div>
+						<span class="tile-label">南方周末</span>
+					</a>
+
+					<a href="http://www.sina.com.cn/" class="tile bg-white fg-red" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-ie"></span>
+						</div>
+						<span class="tile-label">新浪</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="tile-group one">
+				<span class="tile-group-title">推荐</span>
+				<div class="tile-container">
+					<a href="http://www.lib.xjtu.edu.cn/" class="tile bg-red fg-black" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-books"></span>
+						</div>
+						<span class="tile-label">钱图</span>
+					</a>
+
+					<a href="http://bbs.xjtu.edu.cn" class="tile bg-darkBlue fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-users"></span>
+						</div>
+						<span class="tile-label">兵马俑bbs</span>
+					</a>
+
+					<a href="http://www.zhihu.com/" class="tile bg-lightBlue fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-fire"></span>
+						</div>
+						<span class="tile-label">知乎</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="tile-group two">
+				<span class="tile-group-title">生活娱乐</span>
+				<div class="tile-container">
+					<a href="http://www.youku.com/" class="tile bg-indigo fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon">Ku</span>
+						</div>
+						<span class="tile-label">优酷</span>
+					</a>
+
+					<a href="http://www.bilibili.com/" class="tile bg-orange fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon">Bi…</span>
+						</div>
+						<span class="tile-label">哔哩哔哩</span>
+					</a>
+
+					<a href="http://t.sina.com.cn/" class="tile bg-red fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-feed"></span>
+						</div>
+						<span class="tile-label">新浪微博</span>
+					</a>
+
+					<a href="https://wx.qq.com/" class="tile bg-blue fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-facebook"></span>
+						</div>
+						<span class="tile-label">脸书</span>
+					</a>
+
+					<a href="http://www.douyutv.com/" class="tile bg-white fg-black" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-trophy"></span>
+						</div>
+						<span class="tile-label">斗鱼</span>
+					</a>
+
+					<a href="http://www.zhanqi.tv/" class="tile bg-black fg-white" data-role="tile">
+						<div class="tile-content iconic">
+							<span class="icon mif-power"></span>
+						</div>
+						<span class="tile-label">战旗</span>
+					</a>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>
