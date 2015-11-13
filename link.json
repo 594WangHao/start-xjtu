@@ -1,0 +1,186 @@
+{
+  "name":"start-xjtu",
+  "link":[{
+      "name": "就业中心",
+      "href": "http://job.xjtu.edu.cn",
+      "bg": "bg-red",
+      "icon": "icon mif-trophy"
+      },
+    {
+      "name": "教务处",
+      "href": "http://dean.xjtu.edu.cn/",
+      "bg": "bg-orange",
+      "icon": "icon mif-user"
+      },
+    {
+      "name": "查成绩",
+      "href": "http://202.117.1.179/mark/showMarkOne.do",
+      "bg": "bg-white",
+      "icon": "icon mif-pencil"
+      },
+    {
+      "name": "考勤状况",
+      "href": "http://202.117.1.152:8080/User",
+      "bg": "bg-black",
+      "icon": "icon"
+      },
+    {
+      "name": "仲英书院",
+      "href": "http://cy.xjtu.edu.cn",
+      "bg": "bg-green",
+      "icon": "icon mif-location"
+      },
+    {
+      "name": "个人主页",
+      "href": "http:my.xjtu.edu.cn",
+      "bg": "bg-red",
+      "icon": "icon mif-home"
+      },
+    {
+      "name": "饿了么",
+      "href": "http://v5.ele.me/?force",
+      "bg": "bg-indigo",
+      "icon": "icon"
+      },
+    {
+      "name": "美团",
+      "href": "http://www.meituan.com/",
+      "bg": "bg-green",
+      "icon": "icon mif-yelp",
+    },
+    {
+      "name": "淘宝",
+      "href": "https://www.taobao.com/",
+      "bg": "bg-orange",
+      "icon": "icon mif-cart"
+      },
+    {
+      "name": "爱奇艺",
+      "href": "http://www.iqiyi.com/",
+      "bg": "bg-gray",
+      "icon": "icon mif-play"
+      },
+    {
+      "name": "百度云",
+      "href": "http://pan.baidu.com",
+      "bg": "bg-lightBlue",
+      "icon": "icon mif-cloud"
+      },
+    {
+      "name": "校历",
+      "href": "http://xiaoli.xjtu.edu.cn/front/1.html",
+      "bg": "bg-red",
+      "icon": "icon mif-calendar"
+      },
+    {
+      "name":"hotmail",
+      "href": "https://login.live.com/",
+      "bg": "bg-red",
+      "icon": "icon mif-windows"
+      },
+    {
+      "name": "gmail",
+      "href": "https://mail.google.com/",
+      "bg": "bg-lightBlue",
+      "icon": "icon mif-google"
+      },
+    {
+      "name": "网易邮箱",
+      "href": "http://email.163.com/#from=ntes_product",
+      "bg": "bg-blue",
+      "icon": "icon mif-mail"
+      },
+    {
+      "name": "观察者网",
+      "href": "http://www.guancha.cn/",
+      "bg": "bg-red",
+      "icon": "icon mif-eye"
+      },
+    {
+      "name": "凤凰网",
+      "href": "http://www.ifeng.com/",
+      "bg": "bg-indigo",
+      "icon": "icon mif-film"
+      },
+    {
+      "name": "联合早报",
+      "href": "http://www.zaobao.com/",
+      "bg": "bg-indigo",
+      "icon": "icon mif-bookmark"
+      },
+    {
+      "name": "环球网",
+      "href": "http://www.huanqiu.com/",
+      "bg": "bg-green",
+      "icon": "icon mif-earth"
+      },
+    {
+      "name": "南方周末",
+      "href": "http://www.infzm.com/",
+      "bg": "bg-black",
+      "icon": "icon mif-sun"
+      },
+    {
+      "name": "新浪",
+      "href": "http://www.sina.com.cn/",
+      "bg": "white",
+        "fg": "red",
+      "icon": "icon mif-ie"
+      },
+    {
+      "name": "钱图",
+      "href": "http://www.lib.xjtu.edu.cn",
+      "bg": "red",
+        "fg": "black",
+      "icon": "icon mif-books"
+      },
+    {
+      "name": "兵马俑bbs",
+      "href": "http://bbs.xjtu.edu.cn",
+      "bg": "bg-darkBlue",
+      "icon": "icon mif-users"
+      },
+    {
+      "name": "知乎",
+      "href": "http://www.zhihu.com/",
+      "bg": "bg-lightBlue",
+      "icon": "icon mif-fire"
+      },
+    {
+      "name": "优酷",
+      "href": "http://www.youku.com/",
+      "bg": "bg-indigo",
+      "icon": "icon"
+      },
+    {
+      "name": "哔哩哔哩",
+      "href": "http://www.bilibili.com/",
+      "bg": "bg-orange",
+      "icon": "icon"
+      },
+    {
+      "name": "新浪微博",
+      "href": "http://t.sina.com.cn/",
+      "bg": "bg-red",
+      "icon": "icon mif-feed"
+      },
+    {
+      "name": "脸书",
+      "href": "www.facebook.com/",
+      "bg": "bg-blue",
+      "icon": "icon mif-facebook"
+      },
+    {
+      "name": "斗鱼",
+      "href": "http://www.douyutv.com/",
+      "bg": "white",
+        "fg": "black",
+      "icon": "icon mif-trophy"
+      },
+    {
+      "name": "战旗",
+      "href": "http://www.zhanqi.tv/",
+      "bg": "bg-black",
+      "icon": "icon mif-power"
+      }]
+}
