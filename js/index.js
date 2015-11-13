@@ -113,7 +113,7 @@ $(function() {
 	});
 });
 //2015年11月3日后
-//加了
+//加了搜索功能和一个提示箭头
 $(function(){
 	var search_input=$('#search_input');
 	var search_button=$('#search_button')
@@ -149,4 +149,19 @@ $(function(){
 		showCharms('#charmSearch');
 			search_input.focus();
 	})
+})
+
+//2015年11月13日  加入JSON
+$(function(){
+	var tileLabel = $('.tile-label');
+	var icon  = $('.icon');
+	var tile = $('.tile');
+	$.get("link.json",function  (data) {
+		for (var i = tileLabel.length - 1; i >= 0; i--) {
+		tileLabel[i].html(data.link[i].name);
+		tile[i].href = data.link[i].href;
+		tile[i].class = "tile fg-white "+data.link[i].bg;
+		icon[i].class = data.link[i].icon;
+		};
+	},"json")
 })
